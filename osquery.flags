@@ -1,0 +1,11 @@
+--config_plugin=filesystem
+--config_path=C:\ProgramData\osquery\osquery.conf
+--enable_monitor
+--events_expiry=300
+--events_max=200000
+--logger_plugin=filesystem
+--logger_path=C:\ProgramData\osquery\log
+--pidfile=C:\ProgramData\osquery\osquery.pid
+--database_path=C:\ProgramData\osquery\osquery.db
+--disable_events=false
+--windows_event_channels=System,Application,Setup,Security,microsoft-windows-powershell/operational,'microsoft-windows-windows defender/operational'
