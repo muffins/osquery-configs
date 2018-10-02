@@ -8,4 +8,4 @@
 --pidfile=C:\ProgramData\osquery\osquery.pid
 --database_path=C:\ProgramData\osquery\osquery.db
 --disable_events=false
---windows_event_channels=System,Application,Setup,Security,microsoft-windows-powershell/operational,'microsoft-windows-windows defender/operational'
+--windows_event_channels=System,Application,Setup,Security,'microsoft-windows-windows defender/operational'
