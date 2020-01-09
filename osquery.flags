@@ -1,11 +1,11 @@
 --config_plugin=filesystem
---config_path="C:\Program Files\osquery\osquery.conf"
+--config_path=C:\Program Files\osquery\osquery.conf
 --enable_monitor
 --events_expiry=300
 --events_max=200000
 --logger_plugin=filesystem
---logger_path="C:\Program Files\osquery\log"
---pidfile="C:\Program Files\osquery\osquery.pid"
---database_path="C:\Program Files\osquery\osquery.db"
+--logger_path=C:\Program Files\osquery\log
+--pidfile=C:\Program Files\osquery\osquery.pid
+--database_path=C:\Program Files\osquery\osquery.db
 --disable_events=false
 --windows_event_channels=System,Application,Setup,Security,'microsoft-windows-windows defender/operational'
